@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HI6dwLSIB099ED9CoGDQxcuokJtzr0z5W78wLcVeigpRH6JCic7QV0X+mzJDHZAn2uDdSXpS0tKYkxAXgvKTpw==",
+  "success": true,
+  "projectFilePath": "E:\\Nabz Group\\C#\\3CalculatorFirstApplicationTrainingWithWPFC#\\Calculator\\Calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hamidreza\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.14\\microsoft.netcore.app.host.win-x64.3.1.14.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NdcJbFKbf6VHw3j4L98v6fatXsX3XJ3jQeyqvat99ksK+v9V9al3HjxJXKzo6EEHp/5s0QtNijDKnZp2CFIXHg==",
+  "success": true,
+  "projectFilePath": "E:\\Nabz Group\\C#\\5Tutorials-MVVM\\MvvmDemo\\MvvmDemo\\MvvmDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hamidreza\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.14\\microsoft.netcore.app.host.win-x64.3.1.14.nupkg.sha512"
+  ],
+  "logs": []
+}

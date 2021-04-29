@@ -1,0 +1,2 @@
+E:\Nabz Group\C#\3CalculatorFirstApplicationTrainingWithWPFC#\Calculator\bin\Release\netcoreapp3.1\publish\Calculator.pdb
+E:\Nabz Group\C#\3CalculatorFirstApplicationTrainingWithWPFC#\Calculator\bin\Release\netcoreapp3.1\publish\Calculator.exe

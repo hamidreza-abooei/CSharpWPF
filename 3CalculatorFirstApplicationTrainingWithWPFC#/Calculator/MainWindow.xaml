@@ -1,0 +1,167 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="TestProject" Height="500" Width="400" Background="#222" >
+    
+    <Window.Resources>
+        
+        <Style x:Name="operationDarkStyle" TargetType="{x:Type Button}" x:Key="operations">
+            <Setter Property="Background" Value="#272"/>
+            <Setter Property="BorderBrush" Value="#555"/>
+            <Setter Property="Margin" Value="5 5 5 5"/>
+            <Setter Property="Foreground" Value="#eee"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        
+        <Style x:Name="operationWhiteStyle" TargetType="{x:Type Button}" x:Key="operations_white">
+            <Setter Property="Background" Value="#6e6"/>
+            <Setter Property="BorderBrush" Value="#bbb"/>
+            <Setter Property="Margin" Value="5 5 5 5"/>
+            <Setter Property="Foreground" Value="#444"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        
+        <Style TargetType="{x:Type Button}" x:Key="numbers">
+            <Setter Property="Background" Value="#969"/>
+            <Setter Property="BorderBrush" Value="#555"/>
+            <Setter Property="Margin" Value="5 5 5 5"/>
+            <Setter Property="Foreground" Value="#eee"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        
+        <Style TargetType="{x:Type Button}" x:Key="numbers_white">
+            <Setter Property="Background" Value="#e9e"/>
+            <Setter Property="BorderBrush" Value="#bbb"/>
+            <Setter Property="Margin" Value="5 5 5 5"/>
+            <Setter Property="Foreground" Value="#444"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style BasedOn="{StaticResource {x:Type Button}}"
+            TargetType="Button">
+            <Setter Property="Background" Value="#eee"/>
+        </Style>
+        <Style TargetType="Grid">
+            <Setter Property="Margin" Value="5 5 5 5"/>
+        </Style>
+        <Style BasedOn="{StaticResource {x:Type TextBox}}"
+           TargetType="TextBox"
+           x:Key="TitleText">
+            <Setter Property="FontSize" Value="26"/>
+            <Setter Property="Foreground">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <LinearGradientBrush.GradientStops>
+                            <GradientStop Offset="0.0" Color="#ee2333" />
+                            <GradientStop Offset="1.0" Color="#5B88FF" />
+                        </LinearGradientBrush.GradientStops>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                        
+                        <LinearGradientBrush.GradientStops>
+                            <GradientStop Offset="0.0" Color="#050"/>
+                            <GradientStop Offset="1.0" Color="#969"/>
+                        </LinearGradientBrush.GradientStops>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+
+
+        
+    </Window.Resources>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" Background="#444">
+            <MenuItem Header="_File" >
+                <MenuItem Header="_Theme"  >
+                    <MenuItem x:Name="DarkTheme" Header="_Dark" IsCheckable="True" IsChecked="True" Click="DarkTheme_Click"/>
+                    <MenuItem x:Name="WhiteTheme" Header="_White" IsCheckable="True" Click="WhiteTheme_Click"/>
+                </MenuItem>
+
+                <Separator />
+                <MenuItem Header="_Exit" />
+            </MenuItem>
+        </Menu>
+        
+    
+    <Grid Margin="10">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Style="{StaticResource TitleText}" x:Name="res_box" IsReadOnly="True"  Text="0" HorizontalContentAlignment="Left"
+            VerticalContentAlignment="Center" FontSize="30" Padding="5" Grid.Column="0"/>
+            <Grid Margin ="0 0 0 0 " Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="5*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="History" Grid.Row="0" Foreground="#999" HorizontalAlignment="Center"/>
+                <ListBox x:Name="listBox" Grid.Row="1"  Background="#969" Foreground="#eee" BorderThickness="0"/>
+            </Grid>
+            
+
+
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Style="{StaticResource operations}" x:Name="powButten" Grid.Column="0" Grid.Row="0" Content="^" Click="powButten_Click"/>
+            <Button Style="{StaticResource operations}" x:Name="divideButten" Grid.Column="1" Grid.Row="0" Content="/" Click="divideButten_Click"/>
+            <Button Style="{StaticResource operations}" x:Name="delButten" Grid.Column="2" Grid.ColumnSpan="2"  Grid.Row="0" Content="&lt;-" Click="delButten_Click"/>
+
+            <Button Style="{StaticResource numbers}" x:Name="sevenButten" Grid.Column="0" Grid.Row="1" Content="7" Click="sevenButten_Click" />
+            <Button Style="{StaticResource numbers}" x:Name="eightButten" Grid.Column="1" Grid.Row="1" Content="8" Click="eightButten_Click"/>
+            <Button Style="{StaticResource numbers}" x:Name="NineButten" Grid.Column="2" Grid.Row="1" Content="9" Click="NineButten_Click"/>
+            <Button Style="{StaticResource operations}" x:Name="mulButten" Grid.Column="3" Grid.Row="1" Content="*" Click="mulButten_Click"/>
+
+            <Button Style="{StaticResource numbers}" x:Name="fourButten" Grid.Column="0" Grid.Row="2" Content="4" Click="fourButten_Click"/>
+            <Button Style="{StaticResource numbers}" x:Name="fiveButten" Grid.Column="1" Grid.Row="2" Content="5" Click="fiveButten_Click"/>
+            <Button Style="{StaticResource numbers}" x:Name="sixButten" Grid.Column="2" Grid.Row="2" Content="6" Click="sixButten_Click"/>
+            <Button Style="{StaticResource operations}" x:Name="negativeButten" Grid.Column="3" Grid.Row="2" Content="-" Click="negativeButten_Click"/>
+
+            <Button Style="{StaticResource numbers}" x:Name="oneButten" Grid.Column="0" Grid.Row="3" Content="1" Click="oneButten_Click"/>
+            <Button Style="{StaticResource numbers}" x:Name="twoButten" Grid.Column="1" Grid.Row="3" Content="2" Click="twoButten_Click"/>
+            <Button Style="{StaticResource numbers}" x:Name="ThreeButten" Grid.Column="2" Grid.Row="3" Content="3" Click="ThreeButten_Click"/>
+            <Button Style="{StaticResource operations}" x:Name="plusButten" Grid.Column="3" Grid.Row="3" Content="+" Click="plusButten_Click"/>
+
+            <!-- Button x:Name="percentButten" Grid.Column="0" Grid.Row="4" Content="%" Click="percentButten_Click"/-->
+            <Button Style="{StaticResource numbers}" x:Name="zeroButten" Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="4" Content="0" Click="zeroButten_Click" />
+            <!--Button x:Name="dotButten" Grid.Column="2" Grid.Row="4" Content="." Click="dotButten_Click"/-->
+            <Button Style="{StaticResource operations}" x:Name="equalButten" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="4" Content="=" Click="equalButten_Click"/>
+            <!--<Ellipse x:Name="ellipse" Grid.Column="0" Grid.Row="4" Fill="AliceBlue"  Margin="5"/>-->
+            
+
+
+        </Grid>
+        
+
+    </Grid>
+    </DockPanel>
+</Window>
