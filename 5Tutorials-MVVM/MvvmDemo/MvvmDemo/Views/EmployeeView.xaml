@@ -52,7 +52,7 @@
             <Button x:Name="btnAdd" Content="ADD" Margin="5,8,5,8" Padding="3,3,3,3" Command="{Binding Path=SaveCommand}"/>
             <Button x:Name="btnSearch" Content="SEARCH" Margin="5,8,5,8" Padding="3,3,3,3" Command="{Binding Path=SearchCommand}"/>
             <Button x:Name="btnUpdate" Content="UPDATE" Margin="5,8,5,8" Padding="3,3,3,3" Command="{Binding Path=UpdateCommand}"/>
-            <Button x:Name="btnDelete" Content="DELETE" Margin="5,8,5,8" Padding="3,3,3,3"/>
+            <Button x:Name="btnDelete" Content="DELETE" Margin="5,8,5,8" Padding="3,3,3,3" Command="{Binding Path=DeleteCommand}"/>
         </StackPanel>
         <TextBlock Name="txtBlockMessage" Grid.Row="5" Grid.Column="1" Margin="5,8,5,8" Padding="3,3,3,3" Text="{Binding Path=Message}"/>
         <DataGrid x:Name="dgEmployees" AutoGenerateColumns="False" Grid.Row="6" Grid.Column="1" Margin="5,8,5,8" Padding="3,3,3,3" 

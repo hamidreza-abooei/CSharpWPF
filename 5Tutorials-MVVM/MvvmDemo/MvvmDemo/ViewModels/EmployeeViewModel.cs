@@ -31,6 +31,7 @@ namespace MvvmDemo.ViewModels
             saveCommand = new RelayCommand(Save);
             searchCommand = new RelayCommand(Search);
             updateCommand = new RelayCommand(Update);
+            deleteCommand = new RelayCommand(Delete);
         }
         #region DisplayOperation
         private ObservableCollection<Employee> employeesList;
@@ -143,6 +144,37 @@ namespace MvvmDemo.ViewModels
                 Message = ex.Message;
             }
         }
+        #endregion
+        #region DeleteOperation
+
+
+        private RelayCommand deleteCommand;
+
+        public RelayCommand DeleteCommand
+        {
+            get { return deleteCommand; }
+        }
+        public void Delete()
+        {
+            try
+            {
+                var IsDeleted = ObjEmployeeService.Delete(currentEmployee.Id);
+                if (IsDeleted)
+                {
+                    Message = "Employee Deleted";
+                    LoadData();
+                }
+                else
+                {
+                    Message = "Delete Operation Faild";
+                }
+            }
+            catch (Exception ex)
+            {
+                Message = ex.Message;
+            }
+        }
+
         #endregion
 
     }
