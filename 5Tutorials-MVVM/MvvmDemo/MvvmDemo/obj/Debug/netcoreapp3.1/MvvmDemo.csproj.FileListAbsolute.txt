@@ -20,3 +20,4 @@ E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmD
 E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.dll
 E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.pdb
 E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.genruntimeconfig.cache
+E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\MvvmDemo.dll.config

@@ -74,7 +74,11 @@ namespace MvvmDemo.ViewModels
         {
             try
             {
-                var isSaved = ObjEmployeeService.Add(CurrentEmployee);
+                Employee newEmployee = new Employee();
+                newEmployee.Id = CurrentEmployee.Id;
+                newEmployee.Name = CurrentEmployee.Name;
+                newEmployee.Age = CurrentEmployee.Age;
+                var isSaved = ObjEmployeeService.Add(newEmployee);
                 LoadData();
                 if (isSaved)
                     Message = "Employee saved";

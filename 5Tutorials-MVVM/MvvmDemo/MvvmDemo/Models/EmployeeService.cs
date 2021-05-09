@@ -10,10 +10,10 @@ namespace MvvmDemo.Models
         private static List<Employee> ObjEmployeeList;
         public EmployeeService()
         {
-            ObjEmployeeList = new List<Employee>()
-            {
-                new Employee{Id=101 , Name = "Syed" , Age = 25}
-            };
+                ObjEmployeeList = new List<Employee>()
+                {
+                    new Employee{Id=101 , Name = "Syed" , Age = 25}
+                };
 
 
         }
