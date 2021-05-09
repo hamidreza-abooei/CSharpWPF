@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using MvvmDemo.Database;
 
 namespace MvvmDemo.Models
 {
@@ -10,10 +11,11 @@ namespace MvvmDemo.Models
         private static List<Employee> ObjEmployeeList;
         public EmployeeService()
         {
-                ObjEmployeeList = new List<Employee>()
+            ObjEmployeeList = new List<Employee>()
                 {
-                    new Employee{Id=101 , Name = "Syed" , Age = 25}
+                    new Employee { Id = 101, Name = "syed", Age = 25 }
                 };
+            //ObjEmployeeList = SQLiteDataAccess.LoadEmployee();
 
 
         }
@@ -29,8 +31,10 @@ namespace MvvmDemo.Models
             {
                 throw new ArgumentException("Invalid age limit for employee");
             }
-            
+
             ObjEmployeeList.Add(objNewEmployee);
+            //SQLiteDataAccess.SaveEmployee(objNewEmployee);
+
             return true;
         }
 

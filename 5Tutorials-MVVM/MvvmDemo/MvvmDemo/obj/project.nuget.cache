@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "NdcJbFKbf6VHw3j4L98v6fatXsX3XJ3jQeyqvat99ksK+v9V9al3HjxJXKzo6EEHp/5s0QtNijDKnZp2CFIXHg==",
+  "dgSpecHash": "IgeYjzCeY2pQ7VybIGr0OUJRdiflftinupyBGWCjOWtGYz04aDzPZKkG9fQxR6kCENdIQV6gg8j7OLhZzbItUw==",
   "success": true,
-  "projectFilePath": "E:\\Nabz Group\\C#\\5Tutorials-MVVM\\MvvmDemo\\MvvmDemo\\MvvmDemo.csproj",
+  "projectFilePath": "E:\\NabzGroup\\C#\\5Tutorials-MVVM\\MvvmDemo\\MvvmDemo\\MvvmDemo.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Hamidreza\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
+    "C:\\Users\\Hamidreza\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.113.2\\stub.system.data.sqlite.core.netstandard.1.0.113.2.nupkg.sha512",
+    "C:\\Users\\Hamidreza\\.nuget\\packages\\system.data.sqlite.core\\1.0.113.7\\system.data.sqlite.core.1.0.113.7.nupkg.sha512",
+    "C:\\Users\\Hamidreza\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
     "C:\\Users\\Hamidreza\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.14\\microsoft.netcore.app.host.win-x64.3.1.14.nupkg.sha512"
   ],
   "logs": []

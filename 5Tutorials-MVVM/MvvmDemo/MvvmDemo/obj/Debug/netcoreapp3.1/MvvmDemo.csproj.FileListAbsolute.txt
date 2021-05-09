@@ -21,3 +21,44 @@ E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmD
 E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.pdb
 E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.genruntimeconfig.cache
 E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\MvvmDemo.dll.config
+E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\Database\demoDB.db
+E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo_Content.g.cs
+E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\Dapper.dll
+E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\System.Data.SQLite.dll
+E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\SQLite.Interop.dll
+E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
+E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
+E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
+E:\Nabz Group\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.csproj.CopyComplete
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\Database\demoDB.db
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\MvvmDemo.exe
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\MvvmDemo.dll.config
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\MvvmDemo.deps.json
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\MvvmDemo.runtimeconfig.json
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\MvvmDemo.runtimeconfig.dev.json
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\MvvmDemo.dll
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\MvvmDemo.pdb
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\Dapper.dll
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\System.Data.SQLite.dll
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\SQLite.Interop.dll
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.csprojAssemblyReference.cache
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\Views\EmployeeView.g.cs
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\App.g.cs
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo_Content.g.cs
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo_MarkupCompile.cache
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo_MarkupCompile.lref
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MainWindow.baml
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\Views\EmployeeView.baml
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.g.resources
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.AssemblyInfoInputs.cache
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.AssemblyInfo.cs
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.csproj.CoreCompileInputs.cache
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.csproj.CopyComplete
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.dll
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.pdb
+E:\NabzGroup\C#\5Tutorials-MVVM\MvvmDemo\MvvmDemo\obj\Debug\netcoreapp3.1\MvvmDemo.genruntimeconfig.cache
