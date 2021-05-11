@@ -11,11 +11,11 @@ namespace MvvmDemo.Models
         private static List<Employee> ObjEmployeeList;
         public EmployeeService()
         {
-            ObjEmployeeList = new List<Employee>()
-                {
-                    new Employee { Id = 101, Name = "syed", Age = 25 }
-                };
-            //ObjEmployeeList = SQLiteDataAccess.LoadEmployee();
+            ObjEmployeeList = new List<Employee>();
+                //{
+                //    new Employee { Id = 101, Name = "syed", Age = 25 }
+                //};
+            ObjEmployeeList = SQLiteDataAccess.LoadEmployee();
 
 
         }

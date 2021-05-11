@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cm4/opbSVEfUr0RCcfawKZAcTsTwJXQHUsxUBPbgadPPNuaiwMWGho+vDECTVLJNVmd17BVmg31/dAqgUcW7zA==",
+  "success": true,
+  "projectFilePath": "E:\\NabzGroup\\C#\\7_WpfGuiTutorial\\1_HelloWorld\\1_HelloWorld\\1_HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hamidreza\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.14\\microsoft.netcore.app.host.win-x64.3.1.14.nupkg.sha512"
+  ],
+  "logs": []
+}

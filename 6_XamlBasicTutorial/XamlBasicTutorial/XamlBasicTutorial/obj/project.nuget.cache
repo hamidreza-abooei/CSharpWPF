@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bucZGO4KTFH0FL5ULndLJ0pvnQUzNN+dc4WSeIsWCd1nXignPwN+tV5LRigRUakKEJ4L/U0acceFhES0HdaNPQ==",
+  "success": true,
+  "projectFilePath": "E:\\NabzGroup\\C#\\6_XamlBasicTutorial\\XamlBasicTutorial\\XamlBasicTutorial\\XamlBasicTutorial.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hamidreza\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.14\\microsoft.netcore.app.host.win-x64.3.1.14.nupkg.sha512"
+  ],
+  "logs": []
+}
