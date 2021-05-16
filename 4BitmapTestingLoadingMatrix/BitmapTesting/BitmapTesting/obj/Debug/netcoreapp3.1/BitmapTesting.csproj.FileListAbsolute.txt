@@ -17,3 +17,22 @@ E:\Nabz Group\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Deb
 E:\Nabz Group\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\BitmapTesting.dll
 E:\Nabz Group\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\BitmapTesting.pdb
 E:\Nabz Group\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\BitmapTesting.genruntimeconfig.cache
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\bin\Debug\netcoreapp3.1\BitmapTesting.exe
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\bin\Debug\netcoreapp3.1\BitmapTesting.deps.json
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\bin\Debug\netcoreapp3.1\BitmapTesting.runtimeconfig.json
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\bin\Debug\netcoreapp3.1\BitmapTesting.runtimeconfig.dev.json
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\bin\Debug\netcoreapp3.1\BitmapTesting.dll
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\bin\Debug\netcoreapp3.1\BitmapTesting.pdb
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\BitmapTesting.csprojAssemblyReference.cache
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\App.g.cs
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\BitmapTesting_MarkupCompile.cache
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\BitmapTesting_MarkupCompile.lref
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\MainWindow.baml
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\BitmapTesting.g.resources
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\BitmapTesting.AssemblyInfoInputs.cache
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\BitmapTesting.AssemblyInfo.cs
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\BitmapTesting.csproj.CoreCompileInputs.cache
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\BitmapTesting.dll
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\BitmapTesting.pdb
+E:\NabzGroup\C#\4BitmapTestingLoadingMatrix\BitmapTesting\BitmapTesting\obj\Debug\netcoreapp3.1\BitmapTesting.genruntimeconfig.cache

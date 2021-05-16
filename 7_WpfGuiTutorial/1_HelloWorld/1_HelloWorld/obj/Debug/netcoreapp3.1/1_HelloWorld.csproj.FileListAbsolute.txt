@@ -17,3 +17,4 @@ E:\NabzGroup\C#\7_WpfGuiTutorial\1_HelloWorld\1_HelloWorld\obj\Debug\netcoreapp3
 E:\NabzGroup\C#\7_WpfGuiTutorial\1_HelloWorld\1_HelloWorld\obj\Debug\netcoreapp3.1\1_HelloWorld.pdb
 E:\NabzGroup\C#\7_WpfGuiTutorial\1_HelloWorld\1_HelloWorld\obj\Debug\netcoreapp3.1\1_HelloWorld.genruntimeconfig.cache
 E:\NabzGroup\C#\7_WpfGuiTutorial\1_HelloWorld\1_HelloWorld\bin\Debug\netcoreapp3.1\1_HelloWorld.dll.config
+E:\NabzGroup\C#\7_WpfGuiTutorial\1_HelloWorld\1_HelloWorld\obj\Debug\netcoreapp3.1\1_HelloWorld.csprojAssemblyReference.cache

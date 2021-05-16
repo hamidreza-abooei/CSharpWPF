@@ -5,9 +5,142 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_1_HelloWorld"
         mc:Ignorable="d"
-        Title="Hello World Window" Height="450" Width="800" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" >
-    <Grid>
-        <Label> Hello World </Label>
+        Title="Hello World Window" Height="800" Width="800" ShowInTaskbar="False" WindowStartupLocation="Manual" >
+    <StackPanel>
+        <!--<Label> Hello World </Label>-->
+        <Label Margin="16 16 16 0" BorderThickness="1" BorderBrush="CadetBlue">
+            <StackPanel Orientation="Horizontal">
+                <Image Width="30" Source="file:///E:/NabzGroup/C%23/7_WpfGuiTutorial/1_HelloWorld/1_HelloWorld/messageIcon.png" />
+                <AccessText FontSize="25" Text=" Message"/>
+            </StackPanel>
+        </Label>
+        <TextBox 
+            FontSize="32" 
+            Margin="16 16 16 0" 
+            Padding="10"
+            AcceptsReturn="True"
+            TextWrapping="Wrap"
+            SpellCheck.IsEnabled="True"
+            Language="en-US"
+            Background="AliceBlue"
+            Foreground="Brown"
+            Text="Hello World!"
+            IsReadOnly="True"/>
+        <Button x:Name="myButten" Content="Click me" 
+                Margin="16 16 16 0" 
+                FontSize="30" 
+                ToolTip="I'm the best button"
+                Click="Button_Click"
+                MouseDoubleClick="myButten_MouseDoubleClick"
+                />
+        <Label Name="myLabel" Content="hi" Margin="16 16 16 0"/>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock VerticalAlignment="Center" Text="Who will you vote?                  "  />
+            <RadioButton VerticalContentAlignment="Center" GroupName="presidents">
+                <WrapPanel>
+                    <Image  Width="60" Source="file:///E:/NabzGroup/C%23/7_WpfGuiTutorial/1_HelloWorld/1_HelloWorld/obama.jpg"/>
+                    <Label VerticalAlignment="Center">Obama</Label>
+                </WrapPanel>
+            </RadioButton>
+            <RadioButton VerticalAlignment="Center" x:Name="rbTrump" GroupName="presidents">Trump</RadioButton>
+            <RadioButton VerticalAlignment="Center" GroupName="presidents">Biden</RadioButton>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock  Text="How do you feel about him?   "/>
+            <RadioButton GroupName="feeling">good </RadioButton>
+            <RadioButton GroupName="feeling">not happy</RadioButton>
+            <RadioButton GroupName="feeling">bad</RadioButton>
+        </StackPanel>
+        <StackPanel Orientation="Vertical">
+            <Label FontWeight="Bold">Topics</Label>
+            <CheckBox  x:Name="cbParent" Content="like Foods" FontWeight="Bold" IsThreeState="True" Checked="cbParent_Checked" Unchecked="cbParent_Checked"/>
+            <ScrollViewer Height="40">
+                <StackPanel>
+                    <CheckBox  Margin="20 0 0 0" Checked="CheckBox_Checked" Unchecked="CheckBox_Checked" x:Name="cbc">Extra Cheese</CheckBox>
+                    <CheckBox  Margin="20 0 0 0" Checked="CheckBox_Checked" Unchecked="CheckBox_Checked" x:Name="chy">Tuna</CheckBox>
+                    <CheckBox  Margin="20 0 0 0" Checked="CheckBox_Checked" Unchecked="CheckBox_Checked" x:Name="chh">Ham</CheckBox>
+                    <CheckBox  Margin="20 0 0 0" Checked="CheckBox_Checked" Unchecked="CheckBox_Checked" x:Name="cbp" >pizza</CheckBox>
+                </StackPanel>
+            </ScrollViewer>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+            <Label>Name:</Label>
+            <TextBox Width="300" ></TextBox>
+            <Label>Password:</Label>
+            <PasswordBox Width="300" MaxLength="6" ></PasswordBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Image x:Name="myImage" Width ="20" MouseUp="Image_MouseUp" Source="pack://application:,,,/messageIcon.png"/>
+        </StackPanel>
+        <StackPanel  Margin="20">
+            <Slider x:Name="slider" Maximum="50" Minimum="10" 
+                    TickPlacement="BottomRight" 
+                    TickFrequency="2" 
+                    IsSnapToTickEnabled="True" 
+                    Value="20"
+                    ValueChanged="slider_ValueChanged"></Slider>
+            <TextBlock x:Name="tbSlider"></TextBlock>
+            <TextBlock x:Name="newtbslider" FontSize="{Binding ElementName=slider, Path=Value, UpdateSourceTrigger=PropertyChanged}" Text="DataBinding "/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Viewbox Stretch="Uniform" Width="150">
+                <Calendar x:Name="myCalendar" SelectedDate="01.01.2021" DisplayMode="Year" >
+                    <Calendar.BlackoutDates>
+                        <CalendarDateRange Start="03.05.2021" End="03.09.2021"></CalendarDateRange>
+                    </Calendar.BlackoutDates>
+                </Calendar>
+                
+            </Viewbox>
+            <StackPanel>
+                <TextBlock Margin="10" Text="{Binding ElementName = myCalendar, Path=SelectedDate, UpdateSourceTrigger=PropertyChanged}"/>
+                <TextBlock Margin="10" Name ="calendarTxt"/>
+            </StackPanel>
+            <DatePicker  SelectedDate="03.01.2021"
+                         SelectedDateFormat="Long"
+                         SelectedDateChanged="DatePicker_SelectedDateChanged"
+                ></DatePicker>
+            <Expander Margin="5" Header="click me to expand" >
+                <StackPanel>
+                    <TextBlock Width="200" TextWrapping="Wrap">safgandgiflebrvjdzbvm,zdfbgueraiblnsf vkdbujebflakw;hbfcidvus difgbaeribgfkjn dfbfdigbearfn bgfvianv</TextBlock>
+                    <Button>More information</Button>
+                </StackPanel>
+            </Expander>
 
-    </Grid>
+            <WrapPanel Width="200">
+                <Button>button one</Button>
+                <Button>button number two</Button>
+                <Button>button  three</Button>
+                <Button>button number four</Button>
+                <Grid Width="150" Height="100">
+                    <DockPanel   >
+                        <!--LastChildFill="False"-->
+                        <Button DockPanel.Dock="top">top</Button>
+                        <Button DockPanel.Dock="right">right</Button>
+                        <Button DockPanel.Dock="Bottom">bottom</Button>
+                        <Button DockPanel.Dock="right">right</Button>
+                        <Button DockPanel.Dock="Left">left</Button>
+                        <Button >center</Button>
+                    </DockPanel>
+                </Grid>
+            </WrapPanel>
+            
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Canvas Opacity="0.8" >
+                <Button Canvas.Left="30">no click on me</Button>
+                <Button Canvas.Top="20">click me</Button>
+                <Rectangle Panel.ZIndex="2"
+                           Width="100" Height="30" 
+                           Opacity="0.3" 
+                           Fill="Aqua"></Rectangle>
+                <Rectangle Panel.ZIndex="1" 
+                           Width="100" Height="30" 
+                           Opacity="0.4" 
+                           Fill="Blue"
+                           Canvas.Left="30"></Rectangle>
+            </Canvas>
+        </StackPanel>
+        
+
+    </StackPanel>
 </Window>

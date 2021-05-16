@@ -26,7 +26,7 @@ namespace BitmapTesting
 
             InitializeComponent();
             Image image = new Image();
-            image.Source = new BitmapImage(new Uri("background.jpg", UriKind.Relative));
+            image.Source = new BitmapImage(new Uri("E:/NabzGroup/C%23/4BitmapTestingLoadingMatrix/BitmapTesting/BitmapTesting/background.jpg", UriKind.Absolute));
             simpleImage = image;
             //// Create source.
             //BitmapImage bi = new BitmapImage();
