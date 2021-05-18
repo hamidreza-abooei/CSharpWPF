@@ -16,6 +16,7 @@ namespace MvvmDemo.Database
         {
             using (IDbConnection cnn = new SQLiteConnection(LoadConnectionString()))
             {
+                cnn.Open();
                 var output = cnn.Query<Employee>("select * from employee", new DynamicParameters());
                 return output.ToList();
             }

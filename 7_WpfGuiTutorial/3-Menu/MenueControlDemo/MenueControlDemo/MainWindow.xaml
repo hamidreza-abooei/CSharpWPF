@@ -1,0 +1,63 @@
+﻿<Window x:Class="MenueControlDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MenueControlDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <DockPanel >
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="New">
+                    <MenuItem Header="Project..." Click="MenuItem_Click">
+                        <MenuItem.Icon > 
+                            <Image Source="file:///E:/NabzGroup/C%23/7_WpfGuiTutorial/3-Menu/MenueControlDemo/MenueControlDemo/images/project.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="File..."></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Open"></MenuItem>
+                <MenuItem Header="Clone Repository"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar>
+                <Button Click="Button_Click" ToolTip="Delete Text">
+                    <Image Width="30" Source="file:///E:/NabzGroup/C%23/7_WpfGuiTutorial/3-Menu/MenueControlDemo/MenueControlDemo/images/trash.png"/>
+                </Button>
+                <Separator/>
+                <Label>Font Size</Label>
+                <ComboBox Name="cb1" SelectionChanged="ComboBox_SelectionChanged"> 
+                    <ComboBoxItem>8</ComboBoxItem>
+                    <ComboBoxItem IsSelected="True">10</ComboBoxItem>
+                    <ComboBoxItem>12</ComboBoxItem>
+                    <ComboBoxItem>15</ComboBoxItem>
+                </ComboBox>
+                <Button x:Name="increaseSB" Content="increase by 10%" Click="increaseSB_Click"></Button>
+            </ToolBar>
+        </ToolBarTray>
+        <StatusBar  DockPanel.Dock="Bottom">
+            <StatusBarItem x:Name="status">
+                Loading...
+            </StatusBarItem>
+            <Separator></Separator>
+            <StatusBarItem>
+                <ProgressBar Width="100" Height="15" Value="15" Name="mypb"></ProgressBar>
+            </StatusBarItem>
+            <Separator></Separator>
+        </StatusBar>
+        <TextBox x:Name="myTextBox" Text="enter your text here" FontSize="10">
+            <TextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Name="miBold" Header="Bold"
+                              IsCheckable="True" Checked="miBold_Checked" Unchecked="miBold_Unchecked"/>
+                    <MenuItem Name="miItalic" Header="Italic" 
+                              IsCheckable="True" Checked="miItalic_Checked" Unchecked="miItalic_Unchecked"/>
+                </ContextMenu>
+            </TextBox.ContextMenu>
+        </TextBox>
+
+        
+    </DockPanel>
+</Window>

@@ -24,5 +24,39 @@ namespace CatYearXAMLDemo
         {
             InitializeComponent();
         }
+
+        private void inputCatAge_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.Key == Key.Enter)
+            {
+                try
+                {
+                    int inputCatAgeInput = Int32.Parse(inputCatAge.Text);
+                    string resultHumanAge = "";
+                    if (inputCatAgeInput >= 0 && inputCatAgeInput <= 1)
+                    {
+                        resultHumanAge = "0-15";
+                        resultTextBlock.Text = "Your cat is " + resultHumanAge + " years old";
+
+                    }
+                    else if(inputCatAgeInput >= 2 && inputCatAgeInput < 25)
+                    {
+                        resultHumanAge = (((inputCatAgeInput - 2) * 4) + 24).ToString();
+                        resultTextBlock.Text = "Your cat is " + resultHumanAge + " years old";
+                    }
+                    else
+                    {
+                        resultTextBlock.Text = "You entered a value that is not between 0-25";
+                    }
+
+                    
+
+                }
+                catch (Exception myException)
+                {
+                    MessageBox.Show("Not a valid number, please enter a numeric value! \n" + myException.Message);
+                }
+            }
+        }
     }
 }

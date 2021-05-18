@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatYearXAMLDemo", "CatYearXAMLDemo\CatYearXAMLDemo.csproj", "{2B414A68-7F42-4C2E-8CC5-52152DC834C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B414A68-7F42-4C2E-8CC5-52152DC834C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B414A68-7F42-4C2E-8CC5-52152DC834C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B414A68-7F42-4C2E-8CC5-52152DC834C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B414A68-7F42-4C2E-8CC5-52152DC834C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6078CB99-B138-447B-9939-8122A1D2AA5A}
+	EndGlobalSection
+EndGlobal

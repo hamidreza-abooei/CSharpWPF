@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U1S0d38qxvuMMF2a6RZyCfzb7eMNKmZ6CELDQRv+w/GLsE3d8fWIpoACuTb4gAobwOHAu2TK8m+6Dahe/zDIlw==",
+  "success": true,
+  "projectFilePath": "E:\\NabzGroup\\C#\\7_WpfGuiTutorial\\3-Menu\\MenueControlDemo\\MenueControlDemo\\MenueControlDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hamidreza\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.14\\microsoft.netcore.app.host.win-x64.3.1.14.nupkg.sha512"
+  ],
+  "logs": []
+}

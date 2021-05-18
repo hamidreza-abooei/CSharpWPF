@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UxabxN36Cn44uHyWmRMfkflPwu0jJss87Z1/1IhUqfPtz9DpuJdRxCslbO+IETteBjrhGR5H6VNrVXLT25+hSw==",
+  "success": true,
+  "projectFilePath": "E:\\NabzGroup\\C#\\7_WpfGuiTutorial\\2_EndProject\\CatYearXAMLDemoC#Only\\CatYearXAMLDemo\\CatYearXAMLDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hamidreza\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.14\\microsoft.netcore.app.host.win-x64.3.1.14.nupkg.sha512"
+  ],
+  "logs": []
+}
