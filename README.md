@@ -14,3 +14,5 @@ these files related to tutorials in c# with WPF user interface.
 ### 6 -> Is implimenting basic tutorial for XAML
 
 ### 7 -> Is implimentation of new commands of another complete 4 and half hour course for XAML complnents and tools and controls
+
+### 8 -> Is a UI Application design from the 6th video tutorial
