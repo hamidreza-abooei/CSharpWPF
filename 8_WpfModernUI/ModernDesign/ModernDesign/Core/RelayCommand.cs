@@ -26,6 +26,7 @@ namespace ModernDesign.Core
 
         public void Execute(object parameter)
         {
+            
             _execute(parameter);
         }
     }

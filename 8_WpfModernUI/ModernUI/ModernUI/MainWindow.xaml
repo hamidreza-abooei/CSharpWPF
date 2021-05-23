@@ -8,7 +8,8 @@
         Title="MainWindow" Height="500" Width="900"
         WindowStyle="None"
         ResizeMode="NoResize"
-        Background="#181735">
+        Background="#181735"
+        x:Name="thisWindow">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="25"/>
@@ -63,13 +64,14 @@
                        FontFamily="Fonts/#Dosis"
                        />
 
-            <Button Content="Start"
+            <Button Content="Close"
                     Foreground="White"
                     FontSize="10"
                     FontWeight="Medium"
                     Margin="0 0 10 0"
                     Grid.Column="12"
                     Grid.ColumnSpan="2"
+                    Click="Button_Click"
                     >
                 <Button.Style>
                     <Style TargetType="Button">
@@ -89,7 +91,7 @@
                                         CornerRadius="8"
                                         Background="{TemplateBinding Background}">
                             <ContentPresenter VerticalAlignment="Center"
-                                                  HorizontalAlignment ="Center"/>
+                                              HorizontalAlignment ="Center"/>
                         </Border>
 
                     </ControlTemplate>
@@ -161,10 +163,9 @@
                                 <Border Width="100" Height="25"
                                         CornerRadius="12"
                                         Background="{TemplateBinding Background}">
-                                        <ContentPresenter VerticalAlignment="Center"
-                                                  HorizontalAlignment ="Center"/>
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment ="Center"/>
                                 </Border>
-
                             </ControlTemplate>
                         </Button.Template>
                     </Button>
@@ -192,7 +193,6 @@
                                     <ContentPresenter VerticalAlignment="Center"
                                                   HorizontalAlignment ="Center"/>
                                 </Border>
-
                             </ControlTemplate>
                         </Button.Template>
                     </Button>
@@ -244,7 +244,6 @@
                             Margin=" 75 15 0 0"
                             CornerRadius="20"/>
                 </StackPanel>
-                
             </StackPanel>
         </Grid>        
     </Grid>

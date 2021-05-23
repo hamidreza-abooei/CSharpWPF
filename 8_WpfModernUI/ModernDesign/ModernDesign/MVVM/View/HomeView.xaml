@@ -39,7 +39,8 @@
                     <Image Width="250"
                            Height="230"
                            Source="/Images/man.png"
-                           HorizontalAlignment="Right"/>
+                           HorizontalAlignment="Right"
+                           RenderOptions.BitmapScalingMode="Fant"/>
                 </Grid>
             </Border>
 
@@ -61,25 +62,19 @@
                    FontSize="20"
                    HorizontalAlignment="Left"
                    Margin="0 0 0 10"/>
-            <StackPanel Orientation="Horizontal"
-                        >
+            <StackPanel Orientation="Horizontal">
                 <StackPanel.Resources>
                     <Style TargetType="{x:Type Border}">
                         <Setter Property="Margin" Value="0 0 15 0 "/>
+                        <Setter Property="CornerRadius" Value="10"/>
+                        <Setter Property="Width" Value="150"/>
+                        <Setter Property="Height" Value="150"/>
                     </Style>
                 </StackPanel.Resources>
-                <Border Width="150" Height="150" 
-                        Background="#844eff"
-                        CornerRadius="10"/>
-                <Border Width="150" Height="150" 
-                        Background="#4e99ff"
-                        CornerRadius="10"/>
-                <Border Width="150" Height="150" 
-                        Background="#4eff91"
-                        CornerRadius="10"/>
-                <Border Width="150" Height="150" 
-                        Background="#ecff4e"
-                        CornerRadius="10"/>
+                <Border Background="#844eff"/>
+                <Border Background="#4e99ff"/>
+                <Border Background="#4eff91"/>
+                <Border Background="#ecff4e"/>
             </StackPanel>
         </StackPanel>
     </StackPanel>
