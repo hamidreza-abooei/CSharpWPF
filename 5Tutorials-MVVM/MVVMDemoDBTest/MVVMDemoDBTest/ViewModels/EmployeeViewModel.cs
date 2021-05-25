@@ -7,6 +7,8 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MVVMDemoDBTest.Views;
+using System.Windows;
 
 namespace MVVMDemoDBTest.ViewModels
 {
@@ -27,6 +29,7 @@ namespace MVVMDemoDBTest.ViewModels
         EmployeeService ObjEmployeeService;
         public EmployeeViewModel()
         {
+            //MessageBox.Show("I am EmployeeViewModel");
             ObjEmployeeService = new EmployeeService();
             LoadData();
             CurrentEmployee = new Employee();
@@ -45,6 +48,7 @@ namespace MVVMDemoDBTest.ViewModels
         private void LoadData()
         {
             EmployeesList = new ObservableCollection<Employee>(ObjEmployeeService.GetAll());
+            //EmployeeView.UpdateTest(EmployeesList.ToString());
         }
         #endregion
 
@@ -52,7 +56,7 @@ namespace MVVMDemoDBTest.ViewModels
         public Employee CurrentEmployee
         {
             get { return currentEmployee; }
-            set { currentEmployee = value; OnPropertyChanged("CurrentEmployee"); }
+            set { currentEmployee = value; OnPropertyChanged("CurrentEmployee");  }
         }
 
         private string message;
@@ -76,11 +80,13 @@ namespace MVVMDemoDBTest.ViewModels
         {
             try
             {
+                //MessageBox.Show("I am in save command");
                 Employee newEmployee = new Employee();
                 newEmployee.Id = CurrentEmployee.Id;
                 newEmployee.Name = CurrentEmployee.Name;
                 newEmployee.Age = CurrentEmployee.Age;
                 var isSaved = ObjEmployeeService.Add(newEmployee);
+                //ObjEmployeeService.
                 LoadData();
                 if (isSaved)
                     Message = "Employee saved";
@@ -104,11 +110,17 @@ namespace MVVMDemoDBTest.ViewModels
         {
             try
             {
+                //MessageBox.Show("I am in search command");
                 var ObjEmployee = ObjEmployeeService.Search(currentEmployee.Id);
+                //MessageBox.Show("this is in Employee view Model "+ObjEmployee.ToString());
                 if (ObjEmployee != null)
                 {
-                    currentEmployee.Name = ObjEmployee.Name;
-                    currentEmployee.Age = ObjEmployee.Age;
+                    //MessageBox.Show(CurrentEmployee.Name);
+                    //CurrentEmployee.Name = ObjEmployee.Name;
+                    //MessageBox.Show(CurrentEmployee.Name);
+                    //CurrentEmployee.Age = ObjEmployee.Age;
+                    CurrentEmployee = ObjEmployee;
+                    Message = "Employee found.";
                 }
                 else
                 {

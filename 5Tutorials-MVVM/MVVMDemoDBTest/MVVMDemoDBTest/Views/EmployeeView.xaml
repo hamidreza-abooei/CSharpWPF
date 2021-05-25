@@ -20,7 +20,8 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Employee Manage" 
+        <TextBlock x:Name="EmployeeManage" 
+                   Text="Employee Manage" 
                    Grid.Row="0" 
                    Grid.Column="0" 
                    Grid.ColumnSpan="2"
@@ -64,5 +65,6 @@
 
             </DataGrid.Columns>
         </DataGrid>
+        <!--<TextBlock x:Name="TestTextBlock" Grid.Column="0"  Grid.Row="5" Text="Test"/>-->
     </Grid>
 </UserControl>

@@ -24,5 +24,9 @@ namespace MVVMDemoDBTest.Views
         {
             InitializeComponent();
         }
+        //public void UpdateTest(String testString)
+        //{
+        //    TestTextBlock.Text = testString;
+        //}
     }
 }

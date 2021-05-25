@@ -4,10 +4,11 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace MVVMDemoDBTest.Models
 {
-    class Employee
+     public class Employee
     {
         public event PropertyChangedEventHandler PropertyChanged;
         private void OnPropertyChanged(string propertyName)
@@ -29,7 +30,7 @@ namespace MVVMDemoDBTest.Models
         public string Name
         {
             get { return name; }
-            set { name = value; OnPropertyChanged("Name"); }
+            set { name = value; OnPropertyChanged("Name");}
         }
         private int age;
 
@@ -38,5 +39,10 @@ namespace MVVMDemoDBTest.Models
             get { return age; }
             set { age = value; OnPropertyChanged("Age"); }
         }
+        // override
+        //    public String ToString()
+        //{
+        //    return Name + " " + Age.ToString() + " " + id.ToString();
+        //}
     }
 }

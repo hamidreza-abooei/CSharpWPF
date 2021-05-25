@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace MVVMDemoDBTest.Models
 {
@@ -18,11 +19,13 @@ namespace MVVMDemoDBTest.Models
             //    new Employee { Id = 101, Name = "syed", Age = 25 }
             //};
             ObjEmployeeList = SQLiteDataAccess.LoadEmployee();
-
+            //MessageBox.Show("I am here");
 
         }
         public List<Employee> GetAll()
         {
+            List<Employee> ObjEmployeeList = new List<Employee>();
+            ObjEmployeeList = SQLiteDataAccess.LoadEmployee();
             return ObjEmployeeList;
         }
 
@@ -34,8 +37,8 @@ namespace MVVMDemoDBTest.Models
                 throw new ArgumentException("Invalid age limit for employee");
             }
 
-            ObjEmployeeList.Add(objNewEmployee);
-            //SQLiteDataAccess.SaveEmployee(objNewEmployee);
+            //ObjEmployeeList.Add(objNewEmployee);
+            SQLiteDataAccess.SaveEmployee(objNewEmployee);
 
             return true;
         }
@@ -43,6 +46,7 @@ namespace MVVMDemoDBTest.Models
         public bool Update(Employee ObjEmployeeToUpdate)
         {
             bool isUpdated = false;
+
             for (int index = 0; index < ObjEmployeeList.Count; index++)
             {
                 if (ObjEmployeeList[index].Id == ObjEmployeeToUpdate.Id)
@@ -53,6 +57,7 @@ namespace MVVMDemoDBTest.Models
                     break;
                 }
             }
+            SQLiteDataAccess.UpdateEmployee(ObjEmployeeToUpdate);
             return isUpdated;
         }
 
@@ -68,12 +73,15 @@ namespace MVVMDemoDBTest.Models
                     break;
                 }
             }
+            SQLiteDataAccess.RemoveEmployee(id);
 
             return isDeleted;
         }
 
         public Employee Search(int id)
         {
+            ObjEmployeeList = SQLiteDataAccess.LoadEmployee();
+            //MessageBox.Show(ObjEmployeeList.FirstOrDefault(e => e.Id == id).ToString());
             return ObjEmployeeList.FirstOrDefault(e => e.Id == id);
         }
 
