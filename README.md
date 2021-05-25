@@ -9,7 +9,8 @@ these files related to tutorials in c# with WPF user interface.
 
 ### 4 -> Is a test for Loading an image and working with Bitmaps that met some error in loading files in Visual Studio
 
-### 5 -> Is a demo project that has been designed to test and learn MVVM design pattern
+### 5 -> Is a demo project that has been designed to test and learn MVVM design pattern.
+it has two parts, that the first part implimented without database and second part (MVVMDemoDBTest) has been implimented with SQLite 
 
 ### 6 -> Is implimenting basic tutorial for XAML
 
