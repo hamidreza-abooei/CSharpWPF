@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitMapTesting2", "BitMapTesting2\BitMapTesting2.csproj", "{4AE60029-6CB0-4754-A8CA-F7C1697BE832}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AE60029-6CB0-4754-A8CA-F7C1697BE832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE60029-6CB0-4754-A8CA-F7C1697BE832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE60029-6CB0-4754-A8CA-F7C1697BE832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE60029-6CB0-4754-A8CA-F7C1697BE832}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00A95BF8-0205-4F29-8C41-CDAB7DA0D460}
+	EndGlobalSection
+EndGlobal

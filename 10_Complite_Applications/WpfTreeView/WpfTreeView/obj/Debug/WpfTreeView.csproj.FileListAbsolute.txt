@@ -13,3 +13,4 @@ E:\NabzGroup\C#\10_Complite_Applications\WpfTreeView\WpfTreeView\obj\Debug\WpfTr
 E:\NabzGroup\C#\10_Complite_Applications\WpfTreeView\WpfTreeView\obj\Debug\WpfTreeView.csproj.CoreCompileInputs.cache
 E:\NabzGroup\C#\10_Complite_Applications\WpfTreeView\WpfTreeView\obj\Debug\WpfTreeView.exe
 E:\NabzGroup\C#\10_Complite_Applications\WpfTreeView\WpfTreeView\obj\Debug\WpfTreeView.pdb
+E:\NabzGroup\C#\10_Complite_Applications\WpfTreeView\WpfTreeView\obj\Debug\WpfTreeView.csproj.Fody.CopyLocal.cache
